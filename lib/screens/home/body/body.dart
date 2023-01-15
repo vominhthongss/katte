@@ -1,7 +1,6 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'components/all_product.dart';
-import 'components/categories.dart';
 import 'components/header.dart';
 
 class Body extends StatefulWidget {
@@ -18,9 +17,7 @@ class _BodyState extends State<Body> {
           children: [
             SizedBox(height: 20),
             Header(),
-            SizedBox(height: 20),
-            // Categories(),
-            SizedBox(height: 20),
+            SizedBox(height: 40),
             AllProduct(),
             SizedBox(height: 20),
           ],
