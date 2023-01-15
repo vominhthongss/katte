@@ -185,9 +185,9 @@ class _ProductBillListState extends State<ProductBillList> {
         mainAxisAlignment: MainAxisAlignment.center,
         children: [
           Padding(
-            padding: EdgeInsets.all(8.0),
+            padding: EdgeInsets.all(1.0),
             child: SizedBox(
-              width: 200,
+              width: 180,
               child: Row(
                 children: [
                   Text("Tổng: "),
@@ -201,7 +201,7 @@ class _ProductBillListState extends State<ProductBillList> {
           ),
           if (widget.DATHANG_TRANGTHAI == "Thành công")
             Padding(
-              padding: EdgeInsets.all(8.0),
+              padding: EdgeInsets.all(1.0),
               child: CupertinoButton.filled(
                 onPressed: () {
                   xoaDon(widget.DATHANG_ID);
@@ -211,7 +211,7 @@ class _ProductBillListState extends State<ProductBillList> {
             )
           else if (widget.DATHANG_TRANGTHAI == "Hủy")
             Padding(
-              padding: EdgeInsets.all(8.0),
+              padding: EdgeInsets.all(1.0),
               child: CupertinoButton.filled(
                 onPressed: () {
                   xoaDon(widget.DATHANG_ID);
@@ -220,15 +220,18 @@ class _ProductBillListState extends State<ProductBillList> {
               ),
             )
           else
-            Padding(
-              padding: EdgeInsets.all(8.0),
-              child: CupertinoButton.filled(
-                onPressed: () {
-                  huyDon(widget.DATHANG_ID);
-                },
-                child: Text("Hủy đơn"),
+            SizedBox(
+              width: 180,
+              child: Padding(
+                padding: EdgeInsets.all(1.0),
+                child: CupertinoButton.filled(
+                  onPressed: () {
+                    huyDon(widget.DATHANG_ID);
+                  },
+                  child: Text("Hủy đơn"),
+                ),
               ),
-            ),
+            )
         ],
       ),
     );

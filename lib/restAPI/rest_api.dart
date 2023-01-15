@@ -49,6 +49,7 @@ class RestApi {
   //Đặt hàng
 
   Future<bool> buyingGoods(Buying buying) async {
+    print(buying.toJson());
     final response = await http.post(Uri.parse(BUY_GOODS),
         headers: <String, String>{
           'Content-Type': 'application/json; charset=UTF-8',

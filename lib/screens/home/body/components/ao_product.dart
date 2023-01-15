@@ -5,18 +5,18 @@ import 'package:katte/model/product.dart';
 
 import 'product_card.dart';
 
-class GiaViProducts extends StatefulWidget {
+class AoProducts extends StatefulWidget {
   final List<Product> ds;
-  GiaViProducts({
+  AoProducts({
     Key? key,
     required this.ds,
   }) : super(key: key);
 
   @override
-  _GiaViProductsState createState() => _GiaViProductsState();
+  _AoProductsState createState() => _AoProductsState();
 }
 
-class _GiaViProductsState extends State<GiaViProducts> {
+class _AoProductsState extends State<AoProducts> {
   int lengthCanSee = 3;
   @override
   Widget build(BuildContext context) {
@@ -25,7 +25,7 @@ class _GiaViProductsState extends State<GiaViProducts> {
         Padding(
           padding: EdgeInsets.symmetric(horizontal: 20),
           child: Text(
-            "GIA VỊ PHỔ BIẾN",
+            "ÁO THỊNH HÀNH",
             style: TextStyle(fontWeight: FontWeight.bold),
           ),
         ),

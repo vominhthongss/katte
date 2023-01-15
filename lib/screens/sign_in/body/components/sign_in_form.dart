@@ -62,7 +62,7 @@ class _SignInFormState extends State<SignInForm> {
         actions: <Widget>[
           CupertinoDialogAction(
             child: Text(
-              'Xin lỗi, tui nhầm tí :D',
+              'Xin lỗi...',
               style: MyTheme.normalFont,
             ),
             onPressed: () {

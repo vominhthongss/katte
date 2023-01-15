@@ -12,7 +12,7 @@ class Processing {
       }
     }
 
-    return ketqua.split('').reversed.join() + " đ";
+    return "¥ " + ketqua.split('').reversed.join();
   }
 
   String xulysosao(String sosao) {

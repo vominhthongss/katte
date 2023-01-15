@@ -28,5 +28,5 @@ const UPDATE_INFO = HOST_URL + 'api/capnhat/';
 const CHANGE_PASSWORD = HOST_URL + 'api/doimatkhau/';
 const POST_AVA = HOST_URL + 'api/anhdaidien/';
 // const GET_AVT = HOST_URL + 'api/layanhdaidien/';
-const ADMIN_NAME = 'noone';
+const ADMIN_NAME = 'admin';
 const STATUS_BUYING = 'Chờ duyệt';

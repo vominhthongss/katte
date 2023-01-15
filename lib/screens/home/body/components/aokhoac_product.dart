@@ -5,18 +5,18 @@ import 'package:katte/model/product.dart';
 
 import 'product_card.dart';
 
-class TraiCayProducts extends StatefulWidget {
+class AoKhoacProducts extends StatefulWidget {
   final List<Product> ds;
-  TraiCayProducts({
+  AoKhoacProducts({
     Key? key,
     required this.ds,
   }) : super(key: key);
 
   @override
-  _TraiCayProductsState createState() => _TraiCayProductsState();
+  _AoKhoacProductsState createState() => _AoKhoacProductsState();
 }
 
-class _TraiCayProductsState extends State<TraiCayProducts> {
+class _AoKhoacProductsState extends State<AoKhoacProducts> {
   int lengthCanSee = 3;
   @override
   Widget build(BuildContext context) {

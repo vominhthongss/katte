@@ -42,7 +42,7 @@ class Body extends StatelessWidget {
                       ),
                       SizedBox(height: 10),
                       Text(
-                        "Hãy tham gia Nông Sản ABC để nhận ưu đãi cho riêng bạn !",
+                        "Hãy tham gia Katte Shop để nhận ưu đãi cho riêng bạn !",
                         textAlign: TextAlign.center,
                       ),
                       SizedBox(height: 5),

@@ -33,7 +33,7 @@ class Body extends StatelessWidget {
                     children: [
                       SizedBox(height: 10),
                       Text(
-                        "NÔNG SẢN ABC",
+                        "Katte Shop",
                         style: TextStyle(
                           // color: Colors.black,
                           fontSize: 28,

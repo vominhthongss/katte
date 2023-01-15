@@ -127,7 +127,7 @@ class _ProductDetailBillState extends State<ProductDetailBill> {
     return Column(
       children: [
         Container(
-          padding: EdgeInsets.all(20),
+          padding: EdgeInsets.all(10),
           // color: Color(0xFFF5F6F9),
           //chi tiet
           child: Row(
@@ -155,7 +155,7 @@ class _ProductDetailBillState extends State<ProductDetailBill> {
                 child: Text("x" + widget.chitietdathang_soluong.toString()),
               ),
               SizedBox(
-                width: 120,
+                width: 80,
                 child: Text(
                   " = " +
                       xuly.xulytien(widget.chitietdathang_soluong *

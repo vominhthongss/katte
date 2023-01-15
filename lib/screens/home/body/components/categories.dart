@@ -13,7 +13,7 @@ class Categories extends StatelessWidget {
           CategoryCard(
             itemName: "Nguồn cung",
             itemIcon: Icon(Icons.store),
-            link: 'https://www.nongsanantoanthanhhoa.vn/shop',
+            link: 'https://shopee.com/',
           ),
           CategoryCard(
             itemName: "Kết nối cung cầu",

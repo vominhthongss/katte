@@ -248,6 +248,7 @@ class _CartListState extends State<CartList> {
                                 ),
                               ),
                               SizedBox(
+                                width: 2,
                                 child: IconButton(
                                   tooltip: "Xóa",
                                   onPressed: () {
@@ -273,49 +274,6 @@ class _CartListState extends State<CartList> {
                           ),
                         ),
                       ),
-                      // Center(
-                      //     child: index == widget.carts.length - 1
-                      //         ? Column(
-                      //             children: [
-                      //               SizedBox(
-                      //                 height: 20,
-                      //               ),
-                      //               Container(
-                      //                 color: Colors.red[100],
-                      //                 padding: EdgeInsets.all(10),
-                      //                 child: Text(
-                      //                   "Số tiền thanh toán:",
-                      //                   style: TextStyle(
-                      //                       fontSize: 30, color: Colors.blue),
-                      //                 ),
-                      //               ),
-                      //               SizedBox(
-                      //                 height: 20,
-                      //               ),
-                      //               Container(
-                      //                 color: Colors.blue[100],
-                      //                 padding: EdgeInsets.all(20),
-                      //                 child: Text(
-                      //                   xuly.xulytien(tongTien),
-                      //                   style: TextStyle(
-                      //                       fontSize: 25, color: Colors.red),
-                      //                 ),
-                      //               ),
-                      //               SizedBox(
-                      //                 height: 20,
-                      //               ),
-                      //               SizedBox(
-                      //                 child: CupertinoButton.filled(
-                      //                   onPressed: mua,
-                      //                   child: Text("Mua"),
-                      //                 ),
-                      //               ),
-                      //               SizedBox(
-                      //                 height: 10,
-                      //               ),
-                      //             ],
-                      //           )
-                      //         : null)
                     ],
                   ),
                 );
@@ -325,7 +283,7 @@ class _CartListState extends State<CartList> {
               mainAxisAlignment: MainAxisAlignment.center,
               children: [
                 Padding(
-                  padding: EdgeInsets.all(8.0),
+                  padding: EdgeInsets.all(2.0),
                   child: SizedBox(
                     width: 200,
                     child: Row(
@@ -339,13 +297,16 @@ class _CartListState extends State<CartList> {
                     ),
                   ),
                 ),
-                Padding(
-                  padding: EdgeInsets.all(8.0),
-                  child: CupertinoButton.filled(
-                    onPressed: mua,
-                    child: Text("Mua"),
+                SizedBox(
+                  width: 180,
+                  child: Padding(
+                    padding: EdgeInsets.all(0),
+                    child: CupertinoButton.filled(
+                      onPressed: mua,
+                      child: Text("買う"),
+                    ),
                   ),
-                ),
+                )
               ],
             ),
           );

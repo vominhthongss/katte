@@ -19,7 +19,7 @@ class _BodyState extends State<Body> {
             SizedBox(height: 20),
             Header(),
             SizedBox(height: 20),
-            Categories(),
+            // Categories(),
             SizedBox(height: 20),
             AllProduct(),
             SizedBox(height: 20),
